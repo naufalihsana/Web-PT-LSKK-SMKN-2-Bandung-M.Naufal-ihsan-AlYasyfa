@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.tentang{
+  background: linear-gradient(90deg, rgba(24,67,135,1) 0%, rgba(8,83,209,1) 26%, rgba(0,136,163,1) 100%);
+  height: 65vh;
+}
+
+.profil{
+  
+    display: flex;
+    grid-row: auto;
+    grid-row: 2;
+    width: 80%;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left:215px;
+    margin-bottom: 150px;
+}
+
+
+
+
+.profiltentang_2 {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.profiltentang_11 {
+  display: flex;
+  flex-direction: row;
+}
+
+.kataa1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kataa1 h2{
+    padding-left: 15px;
+    font-size: 28px;
+}
+
+.kataa1 p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 150px;
+    font-size: 15px;
+    
+}
+
+.kataa2 p{
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 30px;
+  font-size: 15px;
+  
+  
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .maincard{
+    color: #fff;
+    background-color: #fff;
+    
+    height: 40vh;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-card{
+    position: relative;
+    
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0 25px;
+  }
+
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+  }
+
+  .profile-card .imgtim{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 40;
+  }
+
+  .imgtim img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+  }
+
+  .profile-card:hover .imgtim{
+    transform: translateY(-60px);
+  }
+
+  .profile-card:hover img{
+    border-radius: 10px;
+  }
+
+  .caption{
+     text-align: center;
+     transform: translateY(-80px);
+     opacity: 0;
+     transition: .6s;
+   }
+   .profile-card:hover .caption{
+     opacity: 1;
+   }
+   .caption h3{
+     font-size: 21px;
+     color: black;
+     
+   }
+   .caption p{
+     font-size: 15px;
+     color: #0c52a1;
+     
+     margin: 2px 0 9px 0;
+   }
+
+   .judultim h1{
+    font-size: 32px;
+    text-align: center;
+    background-color: #fff;
+   }
+
+   .judulmitra h1{
+    font-size: 28px;
+   }
+
+   .mitrabg{
+    background-color: #f1f3f7;
+    min-height: 200px;
+
+   }
+
+   .profilmitra{
+  
+    display: flex;
+    grid-row: auto;
+    grid-row: 2;
+    width: 80%;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left:120px;
+    margin-bottom: 65px;
+}
+
+.katamitra p{
+  text-align: justify;
+  padding-right: 30px;
+  font-size: 15px;
+  
+  
+}
+
+/*
+/* Style the Image Used to Trigger the Modal */
+/*#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+/*  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  
+  /* Modal Content (Image) */
+ /* .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+ /* #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+ /* .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  /*.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  /*.close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+ /* @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }*/
+
+
+
+
+
+
+   
+

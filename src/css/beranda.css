@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.konten{
+    background: rgb(24,67,135);
+    background: linear-gradient(90deg, rgba(24,67,135,1) 0%, rgba(8,83,209,1) 26%, rgba(0,136,163,1) 100%);
+    min-height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+.konten2{
+    background-color: white;
+    min-height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .konten .button_slide {
+    color: #FFF;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 rgba(8, 82, 209, 0.515);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .konten .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 rgba(8, 82, 209, 0.515);
+  }
+  
+  .konten .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgba(8, 82, 209, 0.515);
+  }
+  
+  .konten .slide_left:hover {
+    box-shadow: inset 0 0 0 50px rgba(8, 82, 209, 0.515);
+  }
+  
+  .slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 rgba(8, 82, 209, 0.515);
+  }
+
+  .zoom{
+    transition: all 0.2s ease-in-out;
+  }
+
+  .zoom:hover{
+    transform: scale(110%);
+  }
